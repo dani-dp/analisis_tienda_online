@@ -27,7 +27,7 @@ tienda-online-analisis/
 │   ├── raw/          # Datos originales exportados de SQL
 │   └── processed/    # Datos limpios generados por el script de Python
 ├── scripts/
-│   └── limpieza_y_analisis.py # Script principal de ETL y análisis
+│   └── limpiezaPandas.py # Script principal de ETL y análisis
 ├── sql/
 │   ├── 1_schema_creation.sql  # Script DDL para crear la estructura de la BBDD
 │   ├── 2_data_insertion.sql   # Script DML para poblar la BBDD
@@ -41,7 +41,7 @@ tienda-online-analisis/
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[TU_USUARIO_GITHUB]/[NOMBRE_DEL_REPOSITORIO].git
+    git clone https://github.com/dani-dp/analisis_tienda_online.git
     ```
 2.  **Monta la Base de Datos:**
     * Ejecuta el script `sql/1_schema_creation.sql` en tu gestor de MySQL para crear las tablas.
@@ -56,7 +56,7 @@ tienda-online-analisis/
 4.  **Ejecuta el Script de Limpieza:**
     * Navega a la carpeta `scripts/` y ejecuta el script principal:
         ```bash
-        python limpieza_y_analisis.py
+        python limpiezaPandas.py
         ```
     * Esto generará los ficheros limpios en la carpeta `data/processed/`.
 
