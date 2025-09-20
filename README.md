@@ -1,7 +1,8 @@
 # Análisis de Ventas y Gestión de Stock para Tienda Online
 
-![Dashboard de Ventas](https://i.imgur.com/MKvl7Lc.png) ## Descripción del Proyecto
+![Dashboard de Ventas](https://i.imgur.com/MKvl7Lc.png) 
 
+## Descripción del Proyecto
 Este proyecto realiza un análisis 360º sobre la actividad comercial de una tienda online ficticia. El objetivo es transformar datos brutos de ventas en información de valor que permitan optimizar la gestión de inventario e identificar patrones de compra de los clientes. El ciclo de vida del proyecto abarca desde el diseño de la BBDD en **MySQL**, pasando por un proceso de ETL con **Python (Pandas)**, hasta la creación de un dashboard interactivo en **Power BI**.
 
 ---
