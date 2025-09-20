@@ -1,0 +1,9 @@
+# Ignorar la carpeta de datos completa
+data/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de Power BI
+*.pbix
